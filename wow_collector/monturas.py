@@ -8,4 +8,5 @@ def monturas(personaje,servidor):
  
  respuesta=requests.get(url,headers={"Authorization": f"Bearer {token_acceso}"})
  
- print(respuesta.json)
+ print(respuesta.text)
+ 
